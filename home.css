@@ -1,0 +1,100 @@
+#container {
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+    height: 105vh;
+    background-position: top;
+    background-size: cover;
+    padding: 40px 0 40px 0;
+}
+
+.image-1 {
+    background-image: url("/styles/imagens/spidermanheader.jpg");
+}
+
+.image-2 {
+    background-image: url("/styles/imagens/thor_header.jpg");
+    height: 85vh;
+    color: #fff;
+}
+
+.image-2 h1,
+.image-3 h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.image-2 .underline,
+.image-3 .underline {
+    margin: 10px auto 0 auto;
+    height: 8px;
+    width: 100px;
+}
+
+.image-2 .underline {
+    background-color: #fff;
+}
+
+.image-3 .underline {
+    background-color: #ff9f43;
+}
+
+.image-3 {
+    background-image: url("/styles/imagens/bonecos.png");
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 70vh;
+}
+
+.container-text {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+    padding-right: 50px;
+}
+
+.container-text .text {
+    width: 50%;
+    font-size: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    top: 40px;
+    position: absolute;
+    z-index: 9;
+}
+
+.btn {
+    cursor: pointer;
+    background-image: linear-gradient(
+        to bottom,
+        #fe7467,
+        #fe675b,
+        #fe5a4f,
+        #fd4a42,
+        #fc3836
+    );
+
+    -webkit-box-shadow: 0px 0px 36px -29px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 36px -29px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 36px -29px rgba(0, 0, 0, 0.75);
+
+    border: 0;
+    padding: 17px 30px;
+    border-radius: 18px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+
+    font-family: "Arial Black";
+}   
